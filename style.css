@@ -1,3 +1,24 @@
 body{
     background-color: aquamarine;
 }
+header{
+    background-color: gray;
+    height: 80px;
+    padding-left: 30px;
+    margin-left: -20px;
+    margin-top:-20px ;
+    margin-right:-20 ;
+    text-align: center;
+    display: flex;
+}
+
+header h3 {
+    font-size: -30px;
+    color: aliceblue;
+}
+
+
+
+header ul{
+    list-style: none;
+}
