@@ -1,24 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 body{
-    background-color: aquamarine;
+    background-color: rgb(234, 255, 0);
+    margin: 0;
+    color: black;
 }
 header{
-    background-color: gray;
-    height: 80px;
-    padding-left: 30px;
-    margin-left: -20px;
-    margin-top:-20px ;
-    margin-right:-20 ;
-    text-align: center;
+    background-color: rgb(255, 0, 0);
+    padding: 10px;
+    border-bottom: 4px solid black;
+    font-size: 25px;
+    text-decoration: none;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+   
 }
 
 header h3 {
     font-size: -30px;
     color: aliceblue;
+    font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+margin: 0;
+
+}
+.nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+.nav ul li{
+   margin-left: 20px;
+   font-size: 20px;
 }
 
-
-
-header ul{
-    list-style: none;
+}
+header ul li a{
+color: black;
+text-decoration: none;
+transition: color 0.5s;
+}
+header ul li a:hover{
+    color: rgb(0, 255, 247);
+}
 }
